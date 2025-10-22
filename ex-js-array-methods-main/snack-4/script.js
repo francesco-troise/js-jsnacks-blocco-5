@@ -7,3 +7,6 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+const array_name = posts.map(author => author.author)
+//(author => author.author) lasciarlo cosi' è diabolico, ma mi fa ridere
